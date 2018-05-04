@@ -4,7 +4,6 @@
 # Lab 3
 
 <br />
-<br />
 
 ## Part1: Understand Titanic data
 <br />
