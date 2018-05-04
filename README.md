@@ -3,6 +3,9 @@
 # UBIT: weibinma
 # Lab 3
 
+<br />
+<br />
+
 ## Part1: Understand Titanic data
 <br />
 For this part we use python to analysis Titanic dataset, we use 7 methods to predict survive rate, final results were shown as follows:
