@@ -19,40 +19,36 @@ Conclusion: From the final results, we find that Random Forest or Decision Tree 
 
 ### Collect and clean data
 <br />
-In this part, we use python to collect nytimes articles which include 4 categories [politics, business, sports, science]. We collect 500 politics articles, 500 business articles, 500 sports articles and 500 science articles. Then, we clean all articles using stop_words and regular expression as filter. 
+In this part, we use python to collect nytimes articles which include 4 categories [politics, business, sports, science]. We collect 990 politics articles, 990 business articles, 990 sports articles and 990 science articles. Then, we clean all articles using stop_words and regular expression as filter. 
 <br />
 <br />
 
-![Cleaned words](https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/total%20key%20words%20and%20its%20frequency.png)
+![Cleaned keywords](https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/text%20files%20classification%20image/top%20key%20words.png)
 
 <br />
 
 ### Feature Engineering
 <br />
-In this part, we choose the top 250 highest frequency words of each category combining them together as the total key words for classification. Remove the repeated words and got 606 unique key words.
+In this part, we choose the top 250 highest frequency words of each category combining them together as the total key words for classification. Remove the repeated words and got 484 unique key words.
 <br />
 <br />
 
-![Total key words](https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/total%20key%20words.png)
+![Total key words](https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/text%20files%20classification%20image/dataframe.png)
 
 <br />
 <br />
 
-Finally, we build a DataFrame, in which total 2000 article as row, total key words as column and adding the category label in  last column. Thus, the DataFrame is in a (2000, 607) shape.
+Finally, we build a DataFrame, in which total 3960 article as row, total key words as column and adding the category label in  last column. Thus, the DataFrame is in a (3960, 484) shape. Next step, we begin to build classification model using this new data frame.
 <br />
-<br />
-
-![DataFrame for classification](https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/data%20frame%20for%20classification.png)
-
 <br />
 
 ### Multi-class Classification
 <br />
-We build 4 classification models: KNN, Logistic Regression, Random Forest and SVM. And splitting training and test data of the DataFrame in 5:1. Finally, predicting the accuracy as follows:
+We build 4 classification models: KNN, Logistic Regression, Random Forest and SVM. And splitting training and test data of the DataFrame in 5:1. Finally, test predicting the accuracy as follows:
 <br />
 <br />
 
-![](https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/Prediction%20Accuracy.png)
+![](https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/text%20files%20classification%20image/test%20accuracy.png)
 
 <br />
 
@@ -62,11 +58,11 @@ Conclusion: From the result above, we can easily find that the Logistic Regressi
 
 ### Clean new articles
 <br />
-We clean the new articles and transform them into same DataFrame shape with the original DataFrame; Then doing normalization before predicting.
+We clean the new articles and transform them into DataFrame same shape with the original DataFrame; Then doing normalization before predicting.
 <br />
 <br />
 
-![Normalizing new data](https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/Normalization.png)
+![New test dataframe](https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/text%20files%20classification%20image/dataframe_newtest.png)
 
 <br />
 
@@ -76,11 +72,11 @@ We perform classification methods and predict unknown set of articles (not test 
 <br />
 <br />
 
-![Accuracy of new articles prediction](https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/prediction%20accuracy%20for%20new%20articles.png)
+![Accuracy of new articles prediction](https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/text%20files%20classification%20image/new%20articles%20test%20acc.png)
 
 <br />
 
 ### Conclusion 
 <br />
-From the total results, we can easily find that when using new data to test models, the Random Forest, Logistic Regression and SVM models perform better than KNN model again. Thus, we successfully achieve a high accuracy for classification model and a pretty good accuracy for new data (no test data) as well.
+From the total results, we can easily find that when using new data to test models, the Random Forest, Logistic Regression and SVM models perform better than KNN model again. Thus, we successfully achieve a high accuracy (more than 85%)for classification model and a pretty good accuracy (more than 80%) for new data (no test data) as well.
 
