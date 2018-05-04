@@ -1,7 +1,7 @@
-#                                         Text-files-Classification
-#                                               UBIT: shiyan
-#                                              UBIT: weibinma
-#                                                   Lab 3
+# Text-files-Classification
+# UBIT: shiyan
+# UBIT: weibinma
+# Lab 3
 
 ## Part1: Understand Titanic data
 <br />
