@@ -1,7 +1,7 @@
-# Text-files-Classification
-# UBIT: shiyan
-# UBIT: weibinma
-# Lab 3
+<h1 align="center"> Text-files-Classification</h1>
+<h1 align="center"> UBIT: shiyan</h1>
+<h1 align="center"> UBIT: weibinma</h1>
+<h1 align="center"> Lab 3</h1>
 
 <br />
 
@@ -9,7 +9,9 @@
 <br />
 For this part we use python to analysis Titanic dataset, we use 7 methods to predict survive rate, final results were shown as follows:
 
-![Titanic Survival Prediction Accuracy](https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/predction%20accuracy.jpg)
+<p align="center">
+  <img src = "https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/predction%20accuracy.jpg" alt = "Accuracy"/>
+</p>
 
 <br />
 Conclusion: From the final results, we find that Random Forest or Decision Tree methods can help get highest prediction accuracy up to 97 percent, while using Perceptron or SGD learning we only got about 60 percent prediction accuracy.
@@ -23,7 +25,9 @@ In this part, we use python to collect nytimes articles which include 4 categori
 <br />
 <br />
 
-![Cleaned keywords](https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/text%20files%20classification%20image/top%20key%20words.png)
+<p align="center">
+  <img src = "https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/text%20files%20classification%20image/top%20key%20words.png" alt = "Cleaned keywords"/>
+</p>
 
 <br />
 
@@ -33,7 +37,9 @@ In this part, we choose the top 250 highest frequency words of each category com
 <br />
 <br />
 
-![Total key words](https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/text%20files%20classification%20image/dataframe.png)
+<p align="center">
+  <img src = "https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/text%20files%20classification%20image/dataframe.png" alt = "Total key words"/>
+</p>
 
 <br />
 <br />
@@ -48,7 +54,9 @@ We build 4 classification models: KNN, Logistic Regression, Random Forest and SV
 <br />
 <br />
 
-![](https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/text%20files%20classification%20image/test%20accuracy.png)
+<p align="center">
+  <img src = "https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/text%20files%20classification%20image/test%20accuracy.png" alt = "Test Accuracy"/>
+</p>
 
 <br />
 
@@ -62,7 +70,9 @@ We clean the new articles and transform them into DataFrame same shape with the 
 <br />
 <br />
 
-![New test dataframe](https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/text%20files%20classification%20image/dataframe_newtest.png)
+<p align="center">
+  <img src = "https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/text%20files%20classification%20image/dataframe_newtest.png" alt = "New test dataframe"/>
+</p>
 
 <br />
 
@@ -72,7 +82,9 @@ We perform classification methods and predict unknown set of articles (not test 
 <br />
 <br />
 
-![Accuracy of new articles prediction](https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/text%20files%20classification%20image/new%20articles%20test%20acc.png)
+<p align="center">
+  <img src = "https://github.com/weibinma/Data_Intensive_Computing-lab3/blob/master/text%20files%20classification%20image/new%20articles%20test%20acc.png" alt = "Accuracy of new articles prediction"/>
+</p>
 
 <br />
 
