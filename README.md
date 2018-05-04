@@ -1,6 +1,6 @@
 <h1 align="center"> Text-files-Classification</h1>
-<h1 align="center"> UBIT: shiyan</h1>
-<h1 align="center"> UBIT: weibinma</h1>
+<h1 align="center"> UBIT: name1</h1>
+<h1 align="center"> UBIT: name2</h1>
 <h1 align="center"> Lab 3</h1>
 
 <br />
